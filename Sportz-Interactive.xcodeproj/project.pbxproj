@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A358D1F92A41E9C300EB8E9E /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A358D1F82A41E9C300EB8E9E /* Constant.swift */; };
+		A358D1FB2A41EA1B00EB8E9E /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A358D1FA2A41EA1B00EB8E9E /* Utils.swift */; };
 		A3E45B862A417A1D000E9856 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E45B852A417A1D000E9856 /* AppDelegate.swift */; };
 		A3E45B882A417A1D000E9856 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E45B872A417A1D000E9856 /* SceneDelegate.swift */; };
 		A3E45B8D2A417A1D000E9856 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3E45B8B2A417A1D000E9856 /* Main.storyboard */; };
@@ -16,13 +18,13 @@
 		A3E45BA32A417B0F000E9856 /* MatchDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E45BA22A417B0F000E9856 /* MatchDetailVC.swift */; };
 		A3E45BA52A417B21000E9856 /* APIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E45BA42A417B21000E9856 /* APIHelper.swift */; };
 		A3E45BA92A417D08000E9856 /* MatchDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E45BA82A417D08000E9856 /* MatchDetailModel.swift */; };
-		A3E45BAB2A4188F8000E9856 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E45BAA2A4188F8000E9856 /* Constant.swift */; };
-		A3E45BAD2A41992A000E9856 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E45BAC2A41992A000E9856 /* Utils.swift */; };
 		A3E45BB12A41C777000E9856 /* PlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E45BAF2A41C776000E9856 /* PlayerCell.swift */; };
 		A3E45BB22A41C777000E9856 /* PlayerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3E45BB02A41C776000E9856 /* PlayerCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A358D1F82A41E9C300EB8E9E /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		A358D1FA2A41EA1B00EB8E9E /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		A3E45B822A417A1D000E9856 /* Sportz-Interactive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sportz-Interactive.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3E45B852A417A1D000E9856 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3E45B872A417A1D000E9856 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -34,8 +36,6 @@
 		A3E45BA22A417B0F000E9856 /* MatchDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchDetailVC.swift; sourceTree = "<group>"; };
 		A3E45BA42A417B21000E9856 /* APIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHelper.swift; sourceTree = "<group>"; };
 		A3E45BA82A417D08000E9856 /* MatchDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchDetailModel.swift; sourceTree = "<group>"; };
-		A3E45BAA2A4188F8000E9856 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
-		A3E45BAC2A41992A000E9856 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = ../../../../Utils.swift; sourceTree = "<group>"; };
 		A3E45BAF2A41C776000E9856 /* PlayerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerCell.swift; sourceTree = "<group>"; };
 		A3E45BB02A41C776000E9856 /* PlayerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlayerCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -51,6 +51,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A358D1F62A41E9C300EB8E9E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A358D1FA2A41EA1B00EB8E9E /* Utils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		A358D1F72A41E9C300EB8E9E /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				A358D1F82A41E9C300EB8E9E /* Constant.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
 		A3E45B792A417A1D000E9856 = {
 			isa = PBXGroup;
 			children = (
@@ -76,8 +92,6 @@
 				A3E45B9D2A417A7E000E9856 /* ViewController */,
 				A3E45B9C2A417A75000E9856 /* Model */,
 				A3E45B9B2A417A69000E9856 /* APIHelper */,
-				A3E45B9A2A417A5B000E9856 /* Utils */,
-				A3E45B992A417A4F000E9856 /* Constant */,
 				A3E45B8E2A417A20000E9856 /* Assets.xcassets */,
 				A3E45B902A417A20000E9856 /* LaunchScreen.storyboard */,
 				A3E45B932A417A20000E9856 /* Info.plist */,
@@ -85,25 +99,11 @@
 			path = "Sportz-Interactive";
 			sourceTree = "<group>";
 		};
-		A3E45B992A417A4F000E9856 /* Constant */ = {
-			isa = PBXGroup;
-			children = (
-				A3E45BAA2A4188F8000E9856 /* Constant.swift */,
-			);
-			path = Constant;
-			sourceTree = "<group>";
-		};
-		A3E45B9A2A417A5B000E9856 /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				A3E45BAC2A41992A000E9856 /* Utils.swift */,
-			);
-			path = Utils;
-			sourceTree = "<group>";
-		};
 		A3E45B9B2A417A69000E9856 /* APIHelper */ = {
 			isa = PBXGroup;
 			children = (
+				A358D1F72A41E9C300EB8E9E /* Constant */,
+				A358D1F62A41E9C300EB8E9E /* Utils */,
 				A3E45BA42A417B21000E9856 /* APIHelper.swift */,
 			);
 			path = APIHelper;
@@ -226,11 +226,11 @@
 			files = (
 				A3E45BA52A417B21000E9856 /* APIHelper.swift in Sources */,
 				A3E45BA92A417D08000E9856 /* MatchDetailModel.swift in Sources */,
-				A3E45BAD2A41992A000E9856 /* Utils.swift in Sources */,
+				A358D1FB2A41EA1B00EB8E9E /* Utils.swift in Sources */,
 				A3E45BB12A41C777000E9856 /* PlayerCell.swift in Sources */,
 				A3E45BA12A417AF6000E9856 /* HomeVC.swift in Sources */,
-				A3E45BAB2A4188F8000E9856 /* Constant.swift in Sources */,
 				A3E45B862A417A1D000E9856 /* AppDelegate.swift in Sources */,
+				A358D1F92A41E9C300EB8E9E /* Constant.swift in Sources */,
 				A3E45BA32A417B0F000E9856 /* MatchDetailVC.swift in Sources */,
 				A3E45B882A417A1D000E9856 /* SceneDelegate.swift in Sources */,
 			);
